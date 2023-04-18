@@ -1,7 +1,7 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import { createLiImg, createFilters } from '../js/renderHtml';
+import { createLiImg, createFilters } from './js/renderHtml';
 
 const refs = {
   filters: document.querySelector('.filters'),
